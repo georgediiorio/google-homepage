@@ -17,12 +17,15 @@ body{
 .top-bar{
     display:flex;
     align-items: center;
+    padding: 20px 30px;
 }
 
 .content{
 flex: 1;
 display: flex;
 flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .bottom-bar{
@@ -35,9 +38,72 @@ flex-direction: column;
 }
 
 .bar-right{
-
+    margin-left: auto;
+    display: flex;
+    align-items:center;
 }
 
 .menu{
+    display: flex;
+}
+
+.menu a{
+    color: #2d2d2d;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.app-toggle{
+
+}
+
+.profile-trigger{
+    margin-right: 15px;
+}
+
+.profile-trigger img{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.search-wrapper{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-logo{
+
+}
+
+.search-logo img{
+    width: 400px;
+}
+
+.search-bar{
+
+}
+
+.search-bar input{
+
+}
+
+.search-bar .search .icon{
     
+}
+
+.search-bar .search-icon .right{
+    
+}
+
+.search-info{
+
+}
+.search-info a{
+
 }
